@@ -2,15 +2,15 @@ const Footer = () => (
   <>
     <footer
       className="main-footer"
-      itemtype="https://schema.org/Organization"
-      itemscope
+      itemType="https://schema.org/Organization"
+      itemScope
       role="contentinfo"
     >
-      <div class="row">
+      <div className="row">
         <div className="small-12 medium-4 large-3 columns">
           <a
             className="main-logo"
-            itemprop="url"
+            itemProp="url"
             href="//www.kode24.no"
             title="Kode24"
           >
@@ -19,31 +19,31 @@ const Footer = () => (
               src="//kodestyle.kode24.no/assets/kode24/kode24-logo.svg"
               alt="Kode24 logo"
             />{" "}
-            <span itemprop="name" className="hide">
+            <span itemProp="name" className="hide">
               Kode24
             </span>{" "}
           </a>
           <dl>
             <dt>Postadresse:</dt>
             <dd
-              itemprop="address"
-              itemscope
-              itemtype="https://schema.org/PostalAddress"
+              itemProp="address"
+              itemScope
+              itemType="https://schema.org/PostalAddress"
             >
-              <span itemprop="postOfficeBoxNumber">Boks 1184</span> Sentrum,{" "}
-              <span itemprop="postalCode">0107</span>{" "}
-              <span itemprop="addressLocality">Oslo</span>
+              <span itemProp="postOfficeBoxNumber">Boks 1184</span> Sentrum,{" "}
+              <span itemProp="postalCode">0107</span>{" "}
+              <span itemProp="addressLocality">Oslo</span>
             </dd>
             <dt>Besøksadresse:</dt>
             <dd
-              itemprop="location"
-              itemscope
-              itemtype="https://schema.org/PostalAddress"
+              itemProp="location"
+              itemScope
+              itemType="https://schema.org/PostalAddress"
             >
               <a href="https://goo.gl/maps/EmpIH">
-                <span itemprop="streetAddress">Karvesvingen 1</span>,{" "}
-                <span itemprop="postalCode">0579</span>{" "}
-                <span itemprop="addressLocality">Oslo</span>
+                <span itemProp="streetAddress">Karvesvingen 1</span>,{" "}
+                <span itemProp="postalCode">0579</span>{" "}
+                <span itemProp="addressLocality">Oslo</span>
               </a>
             </dd>
           </dl>
@@ -86,47 +86,47 @@ const Footer = () => (
           </ul>
         </div>
         <div className="small-12 medium-3 large-3 columns">
-          <div itemscope itemtype="https://schema.org/Person">
+          <div itemScope itemType="https://schema.org/Person">
             <div>
-              <span itemprop="jobTitle">
+              <span itemProp="jobTitle">
                 <strong>Fagredaktør</strong>
               </span>
               : <br />
-              <a href="mailto:jorgen@kode24.no" itemprop="email">
-                <span itemprop="name">Jørgen Jacobsen</span>
+              <a href="mailto:jorgen@kode24.no" itemProp="email">
+                <span itemProp="name">Jørgen Jacobsen</span>
               </a>
             </div>
             <div>
-              <span itemprop="jobTitle">
+              <span itemProp="jobTitle">
                 <strong>Redaktør</strong>
               </span>
               : <br />
-              <a href="mailto:ole@kode24.no" itemprop="email">
-                <span itemprop="name">Ole Petter Baugerød Stokke</span>
+              <a href="mailto:ole@kode24.no" itemProp="email">
+                <span itemProp="name">Ole Petter Baugerød Stokke</span>
               </a>
             </div>
             <div>
-              <span itemprop="jobTitle">
+              <span itemProp="jobTitle">
                 <strong>Ansvarlig redaktør</strong>
               </span>
               : <br />
-              <a href="mailto:jan.thoresen@aller.com" itemprop="email">
-                <span itemprop="name">Jan Thoresen</span>
+              <a href="mailto:jan.thoresen@aller.com" itemProp="email">
+                <span itemProp="name">Jan Thoresen</span>
               </a>
             </div>
           </div>
-          <div itemtype="https://schema.org/Organization" itemscope>
+          <div itemType="https://schema.org/Organization" itemScope>
             <br />
             <br />
             Utgitt av{" "}
             <a href="//sol.no">
-              <span itemprop="name">Scandinavia Online</span>
+              <span itemProp="name">Scandinavia Online</span>
             </a>{" "}
             - et selskap i Aller Media
           </div>
           <br />
           <div>
-            <span itemprop="name">Powered by Labrador CMS</span>
+            <span itemProp="name">Powered by Labrador CMS</span>
           </div>
         </div>
         <div className="small-12 medium-3 large-3 columns end">

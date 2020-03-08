@@ -6,19 +6,23 @@ import Article from "./components/article.js";
 
 const Home = props => (
   <div className="container">
-    <main class="frontpage wide" role="main" data-pageId="70185540">
+    <Head>
+      <link href="/main.css" rel="stylesheet" />
+    </Head>
+    <main className="frontpage wide" role="main" data-pageid="70185540">
       <div id="front-articles-list">
-        {props.articles.map(articleRow => (
-          <div className="row">
-            {articleRow.children.map(article => {
+        {props.articles.map((articleRow, articleRowIndex) => (
+          <div className="row" key={articleRowIndex}>
+            {articleRow.children.map((article, articleIndex) => {
               if (article.data.boxname === "markup") {
                 return (
                   <div
+                    key={articleIndex}
                     dangerouslySetInnerHTML={{ __html: article.markup }}
                   ></div>
                 );
               } else {
-                return <Article article={article} />;
+                return <Article article={article} key={articleIndex} />;
               }
             })}
           </div>
@@ -34,7 +38,7 @@ Home.getInitialProps = async function() {
   const data = await res.json();
 
   return {
-    articles: data.result[0].content["lab-dz-1"].slice(0, 4)
+    articles: data.result[0].content["lab-dz-1"].slice(0, 6)
   };
 };
 

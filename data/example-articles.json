@@ -1,0 +1,426 @@
+{
+  "type":"box",
+  "width":100,
+  "metadata":{
+     "lock":false,
+     "showSubtitle":true
+  },
+  "id":"b9c0bd87-2a1f-4b4d-c0d7-b6a03bc25c64",
+  "node_id":71747502,
+  "children":[
+     {
+        "type":"image",
+        "width":null,
+        "metadata":[
+           "Object"
+        ],
+        "id":"75162aec-946b-49a2-f39d-1491e02fb495",
+        "node_id":71747503
+     }
+  ],
+  "data":{
+     "@attributes":{
+        "type":"property",
+        "collection":"hashtable"
+     },
+     "title":"Automatic article from feed: Kode24 siste artikler",
+     "subtitle":"Automatic article from feed: Kode24 siste artikler",
+     "lab_site_id":"207",
+     "isAutomatic":"1",
+     "feedId":"kode24_siste_artikler",
+     "title_style_json":"{\"text_size\":32}",
+     "children":{
+        "@attributes":[
+           "Object"
+        ],
+        "image":[
+           "Object"
+        ]
+     },
+     "nodeType":"article"
+  }
+}{
+  "type":"box",
+  "width":100,
+  "metadata":{
+     "lock":false,
+     "showSubtitle":true
+  },
+  "id":"e8174d36-c01b-462c-871d-b5128b604f85",
+  "node_id":70715260,
+  "children":[
+     {
+        "type":"image",
+        "width":null,
+        "metadata":[
+           "Object"
+        ],
+        "id":"b0d25e09-a525-460a-c6e3-46ee676e65c3",
+        "node_id":70715261
+     }
+  ],
+  "data":{
+     "@attributes":{
+        "type":"property",
+        "collection":"hashtable"
+     },
+     "subtitle":"Automatic article from feed: Kode24 siste artikler",
+     "lab_site_id":"207",
+     "isAutomatic":"1",
+     "feedId":"kode24_siste_artikler",
+     "title":"<span class=\"headline-title-wrapper\"> <span class=\"headline-title-wrapper\"> <span class=\"headline-title-wrapper\"> <span class=\"headline-title-wrapper\"> <span class=\"headline-title-wrapper\"> <span class=\"headline-title-wrapper\"> <span class=\"headline-title-wrapper\"> Automatic article from feed: Kode24 siste artikler </span> </span> </span> </span> </span> </span> </span>",
+     "viewports_json":"{\"mobile\":{\"fields\":{\"title_style_json\":{\"text_size\":10}}}}",
+     "title_style_json":"{\"text_size\":30}",
+     "children":{
+        "@attributes":[
+           "Object"
+        ],
+        "image":[
+           "Object"
+        ]
+     },
+     "nodeType":"article"
+  }
+}{
+  "type":"box",
+  "width":100,
+  "metadata":{
+     "lock":false,
+     "showSubtitle":true,
+     "box_background":{
+        "desktop":"white"
+     },
+     "showLabels":true
+  },
+  "id":"935799fd-1687-4a98-80f3-b173fc9b31d9",
+  "node_id":72223522,
+  "children":[
+     {
+        "type":"image",
+        "width":null,
+        "metadata":[
+           "Object"
+        ],
+        "id":"13065158-fe00-45fd-9e46-25b1c5189e5b",
+        "node_id":72223523
+     }
+  ],
+  "data":{
+     "@attributes":{
+        "type":"property",
+        "collection":"hashtable"
+     },
+     "full_bylines":"[{\"description\":\"\",\"bio\":\"redaktør, kode24\",\"public_email\":\"ole@kode24.no\",\"profile_link\":\"\",\"profession\":\"\",\"lastname\":\"Baugerød Stokke\",\"lab_site_id\":\"207\",\"firstname\":\"Ole Petter\",\"email\":\"doktoresel@gmail.com\",\"imageUrl\":\"/?imageId=70274291&cropw=100&whRatio=1&bbRatio=0.13671875&croph=100\"}]",
+     "visibility_status":"P",
+     "viewports_json":"{\"mobile\":{\"fields\":{\"title_style_json\":{\"text_size\":17}}}}",
+     "title_style_json":"{\"text_size\":30}",
+     "title":"Misfornøyde med <em class=\"\"><span class=\" pink\" data-lab-text_color_desktop=\"pink\">kvinne</span></em><em class=\"\"><span class=\" pink\" data-lab-text_color_desktop=\"pink\">andel</span></em>, men negative til tiltak",
+     "teaserReviewScore":{
+
+     },
+     "tags":"kodeløkka, likestilling, arbeidsliv, mangfold",
+     "subtitle":"- Kan være svært viktig, mener forsker, men ikke alle norske utviklere er enig.",
+     "site_id":"207",
+     "section_tag":"kodeløkka",
+     "secondaryTitle":{
+
+     },
+     "reviewScore":{
+
+     },
+     "requiressubscription":{
+
+     },
+     "published_url":"/kodelokka/utviklere-misfornoyd-med-kvinneandelen-negative-til-tiltak/72205002",
+     "published":"2020-03-09T06:00:00+01:00",
+     "product":{
+
+     },
+     "modified":"1583489174",
+     "labelBackground":"pink",
+     "label":"se tallene 👩",
+     "lab_site_id":"207",
+     "isContentMarketing":{
+
+     },
+     "imageUrl":"?imageId=72216447&panox=0&panow=100&panoh=52.406417112299&panoy=26.20320855615&heighty=0&heightx=58.843537414966&heightw=41.156462585034&heighth=100",
+     "edit_url":"https://labrador.dagbladet.no/edit/article/id/72205002",
+     "dice_value":{
+
+     },
+     "contentMarketingPublisher":{
+
+     },
+     "articleId":"72205002",
+     "children":{
+        "@attributes":[
+           "Object"
+        ],
+        "image":[
+           "Object"
+        ]
+     },
+     "nodeType":"article",
+     "frontCropUrl":"?imageId=72216447&panox=0&panow=100&panoh=52.406417112299&panoy=26.20320855615&heighty=0&heightx=58.843537414966&heightw=41.156462585034&heighth=100"
+  },
+  "tags":"kodeløkka, likestilling, arbeidsliv, mangfold",
+  "section_tag":"kodeløkka"
+}{
+  "type":"box",
+  "width":50,
+  "metadata":{
+     "lock":false,
+     "width":{
+        "desktop":5,
+        "mobile":12
+     },
+     "showLabels":true,
+     "showSubtitle":true,
+     "box_background":{
+        "desktop":"blue"
+     }
+  },
+  "id":"d3fd3d95-3c1a-49c1-ca8a-fc872778e117",
+  "node_id":72224352,
+  "children":[
+     {
+        "type":"image",
+        "width":null,
+        "metadata":[
+           "Object"
+        ],
+        "id":"348f3353-390c-4112-f69e-c76aa8e76514",
+        "node_id":72224353
+     }
+  ],
+  "data":{
+     "@attributes":{
+        "type":"property",
+        "collection":"hashtable"
+     },
+     "reviewScore":{
+
+     },
+     "visibility_status":"P",
+     "viewports_json":"{\"mobile\":{\"fields\":{\"title_style_json\":{\"text_size\":10}}}}",
+     "title_style_json":"{\"text_size\":17}",
+     "title":"Google skal kun rangere mobil-sider",
+     "teaserReviewScore":{
+
+     },
+     "tags":"kodenytt, skvulp",
+     "subtitle":"Pluss el-bilens erstatter, the foldable web, Airbnb deler data...",
+     "site_id":"207",
+     "section_tag":"kodenytt",
+     "secondaryTitle":{
+
+     },
+     "requiressubscription":{
+
+     },
+     "published_url":"/kodenytt/google-skal-kun-rangere-mobil-sider/72224246",
+     "published":"2020-03-09T05:50:00+01:00",
+     "product":{
+
+     },
+     "modified":"1583748543",
+     "labelBackground":"blue",
+     "label":"ukas beste 🌊",
+     "lab_site_id":"207",
+     "isContentMarketing":{
+
+     },
+     "imageUrl":"?imageId=72224299&panoh=41.702127659574&panoy=0&panox=13.829787234043&panow=74.468085106383&heighty=29.749103942652&heightw=27.069351230425&heighth=70.250896057348&heightx=10.290827740492",
+     "full_bylines":"[{\"public_email\":\"hei@kode24.no\",\"profile_link\":\"\",\"profession\":\"\",\"lastname\":\"Brockfield\",\"firstname\":\"Johan\",\"email\":\"hei@kode24.no\",\"description\":\"\",\"bio\":\"markedsdirektør, Making Waves\",\"imageUrl\":\"/?imageId=70909454&cropw=100&whRatio=1&bbRatio=0.13671875&croph=100\"}]",
+     "edit_url":"https://labrador.dagbladet.no/edit/article/id/72224246",
+     "dice_value":{
+
+     },
+     "contentMarketingPublisher":{
+
+     },
+     "articleId":"72224246",
+     "children":{
+        "@attributes":[
+           "Object"
+        ],
+        "image":[
+           "Object"
+        ]
+     },
+     "nodeType":"article",
+     "frontCropUrl":"?imageId=72224299&panox=13.829787234043&panow=74.468085106383&panoh=41.702127659574&panoy=0&heightw=27.069351230425&heighty=29.749103942652&heightx=10.290827740492&heighth=70.250896057348"
+  },
+  "tags":"skvulp, kodenytt",
+  "section_tag":"kodenytt"
+}{
+  "type":"box",
+  "width":50,
+  "metadata":{
+     "lock":false,
+     "showLabels":true,
+     "showSubtitle":true,
+     "width":{
+        "mobile":12,
+        "desktop":7
+     }
+  },
+  "id":"8f9e3489-6823-4f75-e4bd-deff63fcc885",
+  "node_id":72224196,
+  "children":[
+     {
+        "type":"image",
+        "width":null,
+        "metadata":[
+           "Object"
+        ],
+        "id":"6cf97ef0-d812-4d92-df04-42416ba409a4",
+        "node_id":72224197
+     }
+  ],
+  "data":{
+     "@attributes":{
+        "type":"property",
+        "collection":"hashtable"
+     },
+     "title":"Språkviteren skal kode <em class=\"\"><span class=\" yellow\" data-lab-text_color_desktop=\"yellow\">React</span></em>, sivilingeniøren <em class=\"\"><span class=\" yellow\" data-lab-text_color_desktop=\"yellow\">Azure </span></em>",
+     "teaserReviewScore":{
+
+     },
+     "tags":"itera, kodenytt, inn-ut",
+     "subtitle":"Rasmus (37) og Raymond (28) starter hos Itera.",
+     "site_id":"207",
+     "section_tag":"kodenytt",
+     "secondaryTitle":{
+
+     },
+     "reviewScore":{
+
+     },
+     "visibility_status":"P",
+     "requiressubscription":{
+
+     },
+     "published_url":"/kodenytt/rasmus-37-og-raymond-28-starter-hos-itera/72224018",
+     "published":"2020-03-09T05:55:00+01:00",
+     "product":{
+
+     },
+     "modified":"1583746779",
+     "labelBackground":"yellow",
+     "label":"inn / ut 👋",
+     "lab_site_id":"207",
+     "isContentMarketing":{
+
+     },
+     "imageUrl":"?imageId=72224188&panoy=15.508021390374&panox=0&panow=100&panoh=52.406417112299&heighty=0&heightw=41.156462585034&heighth=100&heightx=0",
+     "full_bylines":"[{\"public_email\":\"hei@kode24.no\",\"profile_link\":\"\",\"profession\":\"\",\"lastname\":\"inn/ut\",\"firstname\":\"kode24s\",\"email\":\"hei@kode24.no\",\"description\":\"\",\"bio\":\"kodere med nye jobber\",\"imageUrl\":\"/?imageId=72087005&cropw=100&whRatio=1&bbRatio=0.13671875&croph=100\"}]",
+     "edit_url":"https://labrador.dagbladet.no/edit/article/id/72224018",
+     "dice_value":{
+
+     },
+     "contentMarketingPublisher":{
+
+     },
+     "viewports_json":"{\"mobile\":{\"fields\":{\"title_style_json\":{\"text_size\":10}}}}",
+     "title_style_json":"{\"text_size\":8,\"italic\":\"italic\"}",
+     "articleId":"72224018",
+     "children":{
+        "@attributes":[
+           "Object"
+        ],
+        "image":[
+           "Object"
+        ]
+     },
+     "nodeType":"article",
+     "frontCropUrl":"?imageId=72224188&panoy=15.508021390374&panox=0&panow=100&panoh=52.406417112299&heighty=0&heightw=41.156462585034&heighth=100&heightx=0"
+  },
+  "tags":"itera, kodenytt, inn-ut",
+  "section_tag":"kodenytt"
+}{
+  "type":"box",
+  "width":100,
+  "metadata":{
+     "lock":false,
+     "showSubtitle":true,
+     "box_background":{
+        "desktop":"white"
+     },
+     "showLabels":true,
+     "width":null
+  },
+  "id":"6adb79ac-70ac-4bd9-bed9-83bb656a9b31",
+  "node_id":72215672,
+  "children":[
+     {
+        "type":"image",
+        "width":null,
+        "metadata":[
+           "Object"
+        ],
+        "id":"c5d7552a-a9c9-434c-c5dd-86d4b1a163cc",
+        "node_id":72215674
+     }
+  ],
+  "data":{
+     "@attributes":{
+        "type":"property",
+        "collection":"hashtable"
+     },
+     "viewports_json":"{\"mobile\":{\"fields\":{\"title_style_json\":{\"text_size\":16}}}}",
+     "title_style_json":"{\"text_size\":29}",
+     "title":"- Jeg <em class=\"\"><span class=\" black\" data-lab-text_color_desktop=\"black\">hater</span></em> når folk prater til meg om morgenen",
+     "teaserReviewScore":{
+
+     },
+     "tags":"kaffe, nedetid, arbeidsliv",
+     "subtitle":"Morgenrutinene til norske utviklere preges av kaffe. Og kaffe. Og mer kaffe. ☕",
+     "site_id":"207",
+     "section_tag":"nedetid",
+     "secondaryTitle":{
+
+     },
+     "reviewScore":{
+
+     },
+     "requiressubscription":{
+
+     },
+     "published_url":"/nedetid/jeg-hater-nar-folk-prater-til-meg-om-morgenen/72209888",
+     "published":"2020-03-06T06:00:00+01:00",
+     "product":{
+
+     },
+     "modified":"1583416598",
+     "labelBackground":"blue",
+     "label":"utviklerne svarer 🎧",
+     "lab_site_id":"207",
+     "isContentMarketing":{
+
+     },
+     "imageUrl":"?imageId=72213862&panox=0&panow=100&panoh=52.406417112299&panoy=41.176470588235&heighty=0&heightx=33.333333333333&heightw=41.156462585034&heighth=100",
+     "full_bylines":"[{\"email\":\"doktoresel@gmail.com\",\"description\":\"\",\"bio\":\"redaktør, kode24\",\"public_email\":\"ole@kode24.no\",\"profile_link\":\"\",\"profession\":\"\",\"lastname\":\"Baugerød Stokke\",\"lab_site_id\":\"207\",\"firstname\":\"Ole Petter\",\"imageUrl\":\"/?imageId=70274291&cropw=100&whRatio=1&bbRatio=0.13671875&croph=100\"}]",
+     "edit_url":"https://labrador.dagbladet.no/edit/article/id/72209888",
+     "dice_value":{
+
+     },
+     "contentMarketingPublisher":{
+
+     },
+     "visibility_status":"P",
+     "articleId":"72209888",
+     "children":{
+        "@attributes":[
+           "Object"
+        ],
+        "image":[
+           "Object"
+        ]
+     },
+     "nodeType":"article",
+     "frontCropUrl":"?imageId=72213862&panox=0&panow=100&panoh=52.406417112299&panoy=41.176470588235&heighty=0&heightx=33.333333333333&heightw=41.156462585034&heighth=100"
+  },
+  "tags":"kaffe, nedetid, arbeidsliv",
+  "section_tag":"nedetid"
+}

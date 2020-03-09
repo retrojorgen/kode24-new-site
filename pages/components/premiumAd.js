@@ -11,9 +11,8 @@ const getWidthClasses = widthFromLabrador => {
   return desktopSize + " " + mobileSize;
 };
 
-const Article = props => {
+const PremiumAd = props => {
   let bufferedArticle = props.article;
-
   let id = 0;
   let wratio = 0.53861386138614;
   let cropw = 100;
@@ -138,6 +137,7 @@ const Article = props => {
           <h1
             className={`headline large-size-${fontSize} text-${textAlign} small-size-${mobileFontSize}`}
           >
+            AD:
             <span
               className="headline-title-wrapper"
               dangerouslySetInnerHTML={{ __html: title }}
@@ -150,4 +150,4 @@ const Article = props => {
   );
 };
 
-export default Article;
+export default PremiumAd;

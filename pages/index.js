@@ -31,8 +31,8 @@ const Home = props => (
           <>
             {/** Draw premium banners (two boxes)  */}
             {frontAds[articleRowIndex - 2] && (
-              <div className="row" key={articleRowIndex + "ad"}>
-                <PremiumAd article={props.frontAds[0].children[0]} />
+              <div className="row top-listing" key={articleRowIndex + "ad"}>
+                <Article article={props.frontAds[0].children[0]} />
               </div>
             )}
             <div className="row" key={articleRowIndex}>
@@ -108,9 +108,11 @@ Home.getInitialProps = async function() {
     } catch (error) {}
   }
 
+  frontAdsData.result[0].content["lab-dz-1"].shift();
+
   return {
     articles: data.result[0].content["lab-dz-1"].slice(0, 6),
-    frontAds: newShuffledArray(frontAdsData.result[0].content["lab-dz-1"]),
+    frontAds: frontAdsData.result[0].content["lab-dz-1"],
     bannerConfig: bannerConfigJSON,
     allAds: allAdsData.result
   };

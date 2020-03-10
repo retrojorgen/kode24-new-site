@@ -13,6 +13,7 @@ const getWidthClasses = widthFromLabrador => {
 
 const PremiumAd = props => {
   let bufferedArticle = props.article;
+  console.log("premium ad", bufferedArticle);
   let id = 0;
   let wratio = 0.53861386138614;
   let cropw = 100;
@@ -57,7 +58,7 @@ const PremiumAd = props => {
     titleBackground = bufferedArticle.metadata.box_background.desktop;
   }
 
-  if (bufferedArticle.data.children.image) {
+  if (bufferedArticle.data.children && bufferedArticle.data.children.image) {
     if (bufferedArticle.data.children.image.field) {
       wratio = bufferedArticle.data.children.image.field.whRatio || wratio;
       cropw = bufferedArticle.data.children.image.field.cropw || cropw;

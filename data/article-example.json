@@ -1,0 +1,277 @@
+{
+  type: 'box',
+  width: 100,
+  metadata: { lock: false, showSubtitle: true },
+  id: 'b9c0bd87-2a1f-4b4d-c0d7-b6a03bc25c64',
+  node_id: 71747502,
+  children: [
+    {
+      type: 'image',
+      width: null,
+      metadata: [Object],
+      id: '75162aec-946b-49a2-f39d-1491e02fb495',
+      node_id: 71747503
+    }
+  ],
+  data: {
+    '@attributes': { type: 'property', collection: 'hashtable' },
+    title: 'Automatic article from feed: Kode24 siste artikler',
+    subtitle: 'Automatic article from feed: Kode24 siste artikler',
+    lab_site_id: '207',
+    isAutomatic: '1',
+    feedId: 'kode24_siste_artikler',
+    title_style_json: '{"text_size":32}',
+    children: { '@attributes': [Object], image: [Object] },
+    nodeType: 'article'
+  }
+}
+{
+  type: 'box',
+  width: 100,
+  metadata: { lock: false, showSubtitle: true },
+  id: 'e8174d36-c01b-462c-871d-b5128b604f85',
+  node_id: 70715260,
+  children: [
+    {
+      type: 'image',
+      width: null,
+      metadata: [Object],
+      id: 'b0d25e09-a525-460a-c6e3-46ee676e65c3',
+      node_id: 70715261
+    }
+  ],
+  data: {
+    '@attributes': { type: 'property', collection: 'hashtable' },
+    subtitle: 'Automatic article from feed: Kode24 siste artikler',
+    lab_site_id: '207',
+    isAutomatic: '1',
+    feedId: 'kode24_siste_artikler',
+    title: '<span class="headline-title-wrapper"> <span class="headline-title-wrapper"> <span class="headline-title-wrapper"> <span class="headline-title-wrapper"> <span class="headline-title-wrapper"> <span class="headline-title-wrapper"> <span class="headline-title-wrapper"> Automatic article from feed: Kode24 siste artikler </span> </span> </span> </span> </span> </span> </span>',
+    viewports_json: '{"mobile":{"fields":{"title_style_json":{"text_size":10}}}}',
+    title_style_json: '{"text_size":30}',
+    children: { '@attributes': [Object], image: [Object] },
+    nodeType: 'article'
+  }
+}
+{
+  type: 'box',
+  width: 100,
+  metadata: {
+    lock: false,
+    showSubtitle: true,
+    box_background: { desktop: 'white' },
+    showLabels: true
+  },
+  id: '935799fd-1687-4a98-80f3-b173fc9b31d9',
+  node_id: 72223522,
+  children: [
+    {
+      type: 'image',
+      width: null,
+      metadata: [Object],
+      id: '13065158-fe00-45fd-9e46-25b1c5189e5b',
+      node_id: 72223523
+    }
+  ],
+  data: {
+    '@attributes': { type: 'property', collection: 'hashtable' },
+    reviewScore: {},
+    visibility_status: 'P',
+    viewports_json: '{"mobile":{"fields":{"title_style_json":{"text_size":15}}}}',
+    title_style_json: '{"text_size":27}',
+    title: 'Misfornøyd med <em class=""><span class=" pink" data-lab-text_color_desktop="pink">kvinne</span></em><em class=""><span class=" pink" data-lab-text_color_desktop="pink">andel</span></em>, negative til tiltak',
+    teaserReviewScore: {},
+    tags: 'kodeløkka, likestilling, arbeidsliv, mangfold',
+    subtitle: '- Kan være svært viktig, mener forsker, men ikke alle norske utviklere er enig.',
+    site_id: '207',
+    section_tag: 'kodeløkka',
+    secondaryTitle: {},
+    requiressubscription: {},
+    published_url: '/kodelokka/utviklere-misfornoyd-med-kvinneandelen-negative-til-tiltak/72205002',
+    published: '2020-03-09T06:00:00+01:00',
+    product: {},
+    modified: '1583489174',
+    labelBackground: 'pink',
+    label: 'se tallene 👩',
+    lab_site_id: '207',
+    isContentMarketing: {},
+    imageUrl: '?imageId=72216447&panox=0&panow=100&panoh=52.406417112299&panoy=26.20320855615&heighty=0&heightx=58.843537414966&heightw=41.156462585034&heighth=100',
+    full_bylines: '[{"description":"","bio":"redaktør, kode24","public_email":"ole@kode24.no","profile_link":"","profession":"","lastname":"Baugerød Stokke","lab_site_id":"207","firstname":"Ole Petter","email":"doktoresel@gmail.com","imageUrl":"/?imageId=70274291&cropw=100&whRatio=1&bbRatio=0.13671875&croph=100"}]',
+    edit_url: 'https://labrador.dagbladet.no/edit/article/id/72205002',
+    dice_value: {},
+    contentMarketingPublisher: {},
+    articleId: '72205002',
+    children: { '@attributes': [Object], image: [Object] },
+    nodeType: 'article',
+    frontCropUrl: '?imageId=72216447&panox=0&panow=100&panoh=52.406417112299&panoy=26.20320855615&heighty=0&heightx=58.843537414966&heightw=41.156462585034&heighth=100'
+  },
+  tags: 'kodeløkka, likestilling, arbeidsliv, mangfold',
+  section_tag: 'kodeløkka'
+}
+{
+  type: 'box',
+  width: 50,
+  metadata: {
+    lock: false,
+    showSubtitle: true,
+    box_background: { desktop: 'white' },
+    showLabels: true,
+    width: { mobile: 12 }
+  },
+  id: '6adb79ac-70ac-4bd9-bed9-83bb656a9b31',
+  node_id: 72215672,
+  children: [
+    {
+      type: 'image',
+      width: null,
+      metadata: [Object],
+      id: 'c5d7552a-a9c9-434c-c5dd-86d4b1a163cc',
+      node_id: 72215674
+    }
+  ],
+  data: {
+    '@attributes': { type: 'property', collection: 'hashtable' },
+    title: '- Jeg <em class=""><span class=" black" data-lab-text_color_desktop="black">hater</span></em> når folk prater til meg om morgenen',
+    teaserReviewScore: {},
+    tags: 'kaffe, nedetid, arbeidsliv',
+    subtitle: 'Morgenrutinene til norske utviklere preges av kaffe. Og kaffe. Og mer kaffe. ☕',
+    site_id: '207',
+    section_tag: 'nedetid',
+    secondaryTitle: {},
+    reviewScore: {},
+    visibility_status: 'P',
+    requiressubscription: {},
+    published_url: '/nedetid/jeg-hater-nar-folk-prater-til-meg-om-morgenen/72209888',
+    published: '2020-03-06T06:00:00+01:00',
+    product: {},
+    modified: '1583416598',
+    labelBackground: 'blue',
+    label: 'utviklerne svarer 🎧',
+    lab_site_id: '207',
+    isContentMarketing: {},
+    imageUrl: '?imageId=72213862&panox=0&panow=100&panoh=52.406417112299&panoy=41.176470588235&heighty=0&heightx=33.333333333333&heightw=41.156462585034&heighth=100',
+    full_bylines: '[{"email":"doktoresel@gmail.com","description":"","bio":"redaktør, kode24","public_email":"ole@kode24.no","profile_link":"","profession":"","lastname":"Baugerød Stokke","lab_site_id":"207","firstname":"Ole Petter","imageUrl":"/?imageId=70274291&cropw=100&whRatio=1&bbRatio=0.13671875&croph=100"}]',
+    edit_url: 'https://labrador.dagbladet.no/edit/article/id/72209888',
+    dice_value: {},
+    contentMarketingPublisher: {},
+    viewports_json: '{"mobile":{"fields":{"title_style_json":{"text_size":16}}}}',
+    title_style_json: '{"text_size":12}',
+    articleId: '72209888',
+    children: { '@attributes': [Object], image: [Object] },
+    nodeType: 'article',
+    frontCropUrl: '?imageId=72213862&panox=0&panow=100&panoh=52.406417112299&panoy=41.176470588235&heighty=0&heightx=33.333333333333&heightw=41.156462585034&heighth=100'
+  },
+  tags: 'kaffe, nedetid, arbeidsliv',
+  section_tag: 'nedetid'
+}
+{
+  type: 'box',
+  width: 50,
+  metadata: {
+    lock: false,
+    showSubtitle: true,
+    showLabels: true,
+    width: { mobile: 12 }
+  },
+  id: 'fea60704-ad9a-4e67-b60a-1dd221fd7a0a',
+  node_id: 72211681,
+  children: [
+    {
+      type: 'image',
+      width: null,
+      metadata: [Object],
+      id: '110feee5-83cb-41c6-a3fe-c00eee9bebfb',
+      node_id: 72211682
+    }
+  ],
+  data: {
+    '@attributes': { type: 'property', collection: 'hashtable' },
+    full_bylines: '[{"public_email":"ole@kode24.no","profile_link":"","profession":"","lastname":"Baugerød Stokke","firstname":"Ole Petter","email":"doktoresel@gmail.com","description":"","bio":"redaktør, kode24","imageUrl":"/?imageId=70274291&cropw=100&whRatio=1&bbRatio=0.13671875&croph=100"}]',
+    visibility_status: 'P',
+    viewports_json: '{"mobile":{"fields":{"title_style_json":{"text_size":12}}}}',
+    title_style_json: '{"text_size":10}',
+    title: 'Nina skal få FINNs <span class=" pink" data-lab-text_color_desktop="pink"><em class="">800 mikro­tjenester</em></span> ut i skyen',
+    teaserReviewScore: {},
+    tags: 'finn, ukas koder, mikrotjenester, devops',
+    subtitle: '- Mye å tenke på, forteller Nina Angelvik i FINN.no.',
+    site_id: '207',
+    section_tag: 'ukas koder',
+    secondaryTitle: {},
+    reviewScore: {},
+    requiressubscription: {},
+    published_url: '/ukas-koder/nina-skal-fa-finns-800-mikrotjenester-ut-i-skyen/72201158',
+    published: '2020-03-05T06:00:00+01:00',
+    product: {},
+    modified: '1583155586',
+    labelBackground: 'pink',
+    label: 'ukas koder 🙋',
+    lab_site_id: '207',
+    isContentMarketing: {},
+    imageUrl: '?imageId=72201292&panow=100&panox=0&panoh=46.666666666667&panoy=15.238095238095&heightx=37.404580152672&heightw=46.18320610687&heighth=100&heighty=0',
+    edit_url: 'https://labrador.dagbladet.no/edit/article/id/72201158',
+    dice_value: {},
+    contentMarketingPublisher: {},
+    articleId: '72201158',
+    children: { '@attributes': [Object], image: [Object] },
+    nodeType: 'article',
+    frontCropUrl: '?imageId=72201292&panow=100&panox=0&panoh=46.666666666667&panoy=15.238095238095&heightx=37.404580152672&heightw=46.18320610687&heighth=100&heighty=0'
+  },
+  tags: 'devops, finn, mikrotjenester, ukas koder',
+  section_tag: 'ukas koder'
+}
+{
+  type: 'box',
+  width: 100,
+  metadata: {
+    lock: false,
+    showSubtitle: true,
+    showLabels: true,
+    box_background: { desktop: 'yellow' },
+    width: null
+  },
+  id: '76cc20c7-ba47-4104-f3e1-3bc0aff50014',
+  node_id: 72207225,
+  children: [
+    {
+      type: 'image',
+      width: null,
+      metadata: [Object],
+      id: '80fd90dd-2028-49b9-f7a4-0467bbdc9361',
+      node_id: 72207226
+    }
+  ],
+  data: {
+    '@attributes': { type: 'property', collection: 'hashtable' },
+    section_tag: 'guider',
+    published_url: '/guider/vi-slurver-mest-med-html-og-kontrast/72126474',
+    published: '2020-03-04T06:00:00+01:00',
+    product: {},
+    modified: '1583229376',
+    labelBackground: 'black',
+    label: 'tilgjengelighet 👓',
+    lab_site_id: '207',
+    isContentMarketing: {},
+    imageUrl: '?imageId=72202728&panoy=12.658227848101&panox=0&panow=100&panoh=62.025316455696&heightx=57.92507204611&heighty=0&heightw=34.870317002882&heighth=100',
+    full_bylines: '[{"public_email":"jorgen@kode24.no","profile_link":"","profession":"","lastname":"Jacobsen","firstname":"Jørgen","email":"jorgen@kode24.no","description":"","bio":"fagredaktør, kode24","imageUrl":"/?imageId=70211417&cropw=100&whRatio=1&bbRatio=0.13671875&croph=100"}]',
+    edit_url: 'https://labrador.dagbladet.no/edit/article/id/72126474',
+    dice_value: {},
+    contentMarketingPublisher: {},
+    visibility_status: 'P',
+    viewports_json: '{"mobile":{"fields":{"title_style_json":{"text_size":17}}}}',
+    title_style_json: '{"text_size":21}',
+    title: 'Vi slurver mest med <em class="">HTML </em>og <em class="">kontrast </em>',
+    teaserReviewScore: {},
+    tags: 'wcag, tilgjengelighet, guider, tilsynet for universell utforming, universell utforming',
+    subtitle: 'To feil går igjen hos Tilsynet for Universell Utforming. - Det handler om godt håndverk.',
+    site_id: '207',
+    secondaryTitle: {},
+    reviewScore: {},
+    requiressubscription: {},
+    articleId: '72126474',
+    children: { '@attributes': [Object], image: [Object] },
+    nodeType: 'article',
+    frontCropUrl: '?imageId=72202728&panoy=12.658227848101&panox=0&panow=100&panoh=62.025316455696&heightx=57.92507204611&heighty=0&heightw=34.870317002882&heighth=100'
+  },
+  tags: 'wcag, tilgjengelighet, guider, tilsynet for universell utforming, universell utforming',
+  section_tag: 'guider'
+}

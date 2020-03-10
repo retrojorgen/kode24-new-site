@@ -4,20 +4,6 @@ import fetch from "isomorphic-unfetch";
 import Footer from "./components/footer";
 import Article from "./components/article";
 import PremiumAd from "./components/premiumAd";
-const frontAds = {
-  3: { type: "premium" },
-  5: { type: "premium" },
-  7: { type: "carousel" },
-  9: { type: "premium" },
-  11: { type: "premium" },
-  13: { type: "premium" },
-  15: { type: "premium" },
-  17: { type: "premium" },
-  19: { type: "premium" },
-  21: { type: "premium" },
-  23: { type: "premium" },
-  25: { type: "premium" }
-};
 
 const Home = props => (
   <div className="container">
@@ -30,11 +16,12 @@ const Home = props => (
         {props.articles.map((articleRow, articleRowIndex) => (
           <>
             {/** Draw premium banners (two boxes)  */}
-            {frontAds[articleRowIndex - 2] && (
+            {frontAds[articleRowIndex - 2] && props.frontBannerAds[0] && (
               <div className="row top-listing" key={articleRowIndex + "ad"}>
-                <Article article={props.frontAds[0].children[0]} />
+                <Article article={props.frontBannerAds[0]} />
               </div>
             )}
+            {props.frontBannerAds.shift()}
             <div className="row" key={articleRowIndex}>
               {articleRow.children.map((article, articleIndex) => {
                 if (article.data.boxname === "markup") {
@@ -71,6 +58,36 @@ function newShuffledArray(array) {
 }
 
 Home.getInitialProps = async function() {
+  // the list of banners index by which row they should be injected in
+  let frontBannerAdsByRow = [
+    {},
+    {},
+    {},
+    { type: "premium" },
+    {},
+    { type: "premium" },
+    {},
+    { type: "carousel" },
+    {},
+    { type: "premium" },
+    {},
+    { type: "premium" },
+    {},
+    { type: "premium" },
+    {},
+    { type: "premium" },
+    {},
+    { type: "premium" },
+    {},
+    { type: "premium" },
+    {},
+    { type: "premium" },
+    {},
+    { type: "premium" },
+    {},
+    { type: "premium" }
+  ];
+
   // get frontArticles
   const res = await fetch("https://api.kode24.no/front/?query=id:70185540");
   const data = await res.json();
@@ -107,12 +124,47 @@ Home.getInitialProps = async function() {
       );
     } catch (error) {}
   }
+  // all the ads
+  let allAds = allAdsData.result;
 
-  frontAdsData.result[0].content["lab-dz-1"].shift();
+  // assuming all ads are full width and first element of array
+  // first remove rows that are not banner ads (like markup rows)
+  // then remap to only include the ads, not entire row
+  let frontBannerAdsList = frontAdsData.result[0].content["lab-dz-1"]
+    .filter(bannerRowChildren => {
+      if (bannerRowChildren.children[0].data.isContentMarketing) return true;
+    })
+    .map(adsRow => {
+      return adsRow.children[0];
+    });
+
+  // get bylines from ads api request
+  frontBannerAdsList.map(bannerAd => {
+    let foundArticle = allAds.find(
+      articleAd => articleAd.id === bannerAd.data.articleId
+    );
+    if (
+      foundArticle &&
+      foundArticle.full_bylines &&
+      foundArticle.full_bylines[0]
+    )
+      bannerAd.byline = foundArticle.full_bylines[0];
+    return bannerAd;
+  });
+
+  // iterate
+  frontBannerAdsByRow.map((ad, index) => {
+    if (ad && ad.type && ad.type === "premium" && frontBannerAdsList[0]) {
+      ad.banner = frontBannerAdsList[0];
+      frontBannerAdsList.shift();
+    }
+  });
+
+  console.log(frontBannerAdsByRow);
 
   return {
     articles: data.result[0].content["lab-dz-1"].slice(0, 6),
-    frontAds: frontAdsData.result[0].content["lab-dz-1"],
+    frontBannerAdsByRow: frontBannerAdsByRow,
     bannerConfig: bannerConfigJSON,
     allAds: allAdsData.result
   };

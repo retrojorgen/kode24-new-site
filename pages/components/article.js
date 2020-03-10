@@ -39,24 +39,14 @@ const Article = props => {
   let imageWidth = 800;
   let isContentMarketing =
     bufferedArticle.data.isContentMarketing === "1" ? true : false;
-  let fullByline = bufferedArticle.data.full_bylines
-    ? JSON.parse(bufferedArticle.data.full_bylines)
-    : {};
+  let fullByline = bufferedArticle.byline || {};
 
-  let companyImageUrl =
-    fullByline && fullByline[0] && fullByline[0].imageUrl
-      ? fullByline[0].imageUrl
-      : "";
-  let companyName =
-    fullByline && fullByline[0] && fullByline[0].firstname
-      ? fullByline[0].firstname
-      : "";
+  let companyImageUrl = fullByline.imageUrl || "";
+  let companyName = fullByline.firstname || "";
 
   id = bufferedArticle.data.articleId || id;
   url = "https://www.kode24.no" + bufferedArticle.data.published_url || url;
   title = bufferedArticle.data.title || "";
-
-  console.log(title, fullByline, companyImageUrl, companyName, bufferedArticle);
 
   subTitle = bufferedArticle.data.subtitle || "";
   label = bufferedArticle.data.label || "";
@@ -151,20 +141,22 @@ const Article = props => {
             )}&compression=80`}
           />
         </figure>
-        {isContentMarketing && (
-          <div className="company-information">
-            <figure className="image-contain">
-              <img alt="logo" src={`//dbstatic.no${companyImageUrl}`} />
-            </figure>
-            <span>{companyName}</span>
-          </div>
-        )}
         <div className="article-preview-text">
-          <div className="labels">
-            <span className={`label label-custom ${labelBackground}`}>
-              {label}
-            </span>
-          </div>
+          {isContentMarketing && (
+            <div className="company-information">
+              <figure className="image-contain">
+                <img alt="logo" src={`//dbstatic.no${companyImageUrl}`} />
+              </figure>
+              <span>{companyName}</span>
+            </div>
+          )}
+          {label && (
+            <div className="labels">
+              <span className={`label label-custom ${labelBackground}`}>
+                {label}
+              </span>
+            </div>
+          )}
           <h1
             className={`headline large-size-${fontSize} text-${textAlign} small-size-${mobileFontSize}`}
           >
